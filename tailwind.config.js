@@ -18,7 +18,7 @@ module.exports = {
           800: '#d5c3ff',
           900: '#d0bcff',
         },
-        'gray' : {
+        'gray': {
           50: '#e2e1e3',
           100: '#c5c4c7',
           300: '#8e8d92',
@@ -26,6 +26,11 @@ module.exports = {
           900: '#05040a',
         },
       },
+    },
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1060px",
     },
   },
   plugins: [],
