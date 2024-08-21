@@ -31,7 +31,7 @@ function SideBar({ isOpen, onClose }: SidebarProps) {
                     exit="closed"
                 >
                     <button
-                        className="absolute top-4 right-12 text-purple-900 hover:text-white transition duration-300"
+                        className="absolute top-6 right-12 text-purple-900 hover:text-white transition duration-300"
                         onClick={onClose}
                     >
                         <svg

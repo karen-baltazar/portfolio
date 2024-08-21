@@ -27,6 +27,14 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      'mono': ['JetBrains Mono', 'monospace'],
+      'barlow': ['Barlow', 'sans-serif'],
+    },
+    fontStyle: {
+      'italic': 'italic',
+      'normal': 'normal',
+    },
     screens: {
       xs: "480px",
       sm: "768px",

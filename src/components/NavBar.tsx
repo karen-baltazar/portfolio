@@ -9,7 +9,7 @@ function NavBar() {
 
     return (
         <>
-            <nav className="sticky top-0 w-full bg-gray-900 bg-opacity-90 text-white">
+            <nav className="sticky top-0 w-full bg-gray-900 bg-opacity-90 text-white font-mono ">
                 <div className="flex justify-between items-center px-12 py-6">
                     {/* LOGO */}
                     <div className="logo">
