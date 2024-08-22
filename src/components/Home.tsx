@@ -1,4 +1,4 @@
-import image from '../assets/home-alt.png';
+import homeImage from '../assets/home-alt.png';
 import { motion } from "framer-motion";
 
 const animationVariants = {
@@ -36,7 +36,7 @@ function Home() {
 
             {/* IMAGE */}
             <div className="flex-1 flex justify-center items-center">
-                <img src={image} alt="Descripción de la imagen" className="w-full h-4/5 object-cover" />
+                <img src={homeImage} alt="Dark-themed workspace with a computer" className="w-full h-4/5 object-cover" />
             </div>
         </motion.section>
     )
