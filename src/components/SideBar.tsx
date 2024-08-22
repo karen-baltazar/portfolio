@@ -24,7 +24,7 @@ function SideBar({ isOpen, onClose }: SidebarProps) {
         <AnimatePresence>
             {isOpen && (
                 <motion.div
-                    className="md:hidden fixed top-0 right-0 h-full w-64 bg-gray-900 bg-opacity-80 backdrop-blur-sm text-white flex flex-col items-start p-8 space-y-6 z-50"
+                    className="md:hidden fixed top-0 right-0 h-full w-64 bg-gray-900 bg-opacity-80 backdrop-blur-sm flex flex-col items-start p-8 space-y-6 z-50"
                     variants={variants}
                     initial="closed"
                     animate="open"
