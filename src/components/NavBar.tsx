@@ -3,6 +3,7 @@ import Logo from "../assets/logo.png";
 import NavButton from "./NavButton";
 import MenuButton from "./MenuButton";
 import SideBar from "./SideBar";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,13 @@ function NavBar() {
             <nav className="sticky top-0 z-50 w-full bg-gray-900 bg-opacity-90 text-gray-300 font-mono ">
                 <div className="flex justify-between items-center px-12 py-6">
                     {/* LOGO */}
-                    <div className="logo">
+                    <AnchorLink 
+                        href='#home' 
+                        offset='100'
+                        className="logo"
+                    >
                         <img alt="Logo" className="w-8" src={Logo}></img>
-                    </div>
+                    </AnchorLink>
 
                     {/* NAVIGATION */}
                     <div className="hidden md:flex space-x-12">
