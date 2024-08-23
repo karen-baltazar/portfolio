@@ -4,7 +4,7 @@ import dbIcon from "../assets/db-icon.png";
 import StackIcon from "tech-stack-icons";
 import Tooltip from "./Tooltip";
 
-const About = () => {
+function About() {
     return (
         <motion.section id="about"
             className="flex flex-col sm:flex-row px-12 py-12 text-white font-mono font-thin"
@@ -45,7 +45,7 @@ const About = () => {
                     <Tooltip message="Tailwind CSS"><StackIcon name="tailwindcss" className="w-6 md:w-7 h-auto" aria-label="Tailwind CSS" /></Tooltip>
                     <Tooltip message="HTML5"><StackIcon name="html5" className="w-6 md:w-7 h-auto" aria-label="HTML5" /></Tooltip>
                     <Tooltip message="CSS3"><StackIcon name="css3" className="w-6 md:w-7 h-auto" aria-label="CSS3" /></Tooltip>
-                    <Tooltip message="Database [SQL]"><img src={dbIcon} alt="database" className="w-6 md:w-7 h-auto" aria-label="Database [SQL]" /></Tooltip>
+                    <Tooltip message="Database [SQL]"><img src={dbIcon} alt="database" className="w-5 md:w-6 h-auto" aria-label="Database [SQL]" /></Tooltip>
                 </div>
             </div>
         </motion.section>

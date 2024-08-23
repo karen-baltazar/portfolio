@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 import contactImage from "../assets/contact-image.png";
 import contactPhrase from "../assets/contact-alt.png";
 
-const Contact = () => {
+function Contact() {
     return (
         <motion.section id="contact"
             className="flex flex-col sm:flex-row px-12 py-12 text-white font-mono font-thin"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.2 }}
             viewport={{
                 once: true,
-                amount: 0.6
+                amount: 0.3
             }}
         >
             {/* CONTENT */}
