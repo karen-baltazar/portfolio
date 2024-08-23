@@ -21,7 +21,7 @@ const About = () => {
                 <img src={aboutImage} alt="about" className="w-4/5 h-auto" />
             </div>
             {/* CONTENT */}
-            <div className="text-left sm:pt-8 sm:w-1/2 sm:pr-6">
+            <div className="text-left sm:pt-8 sm:w-1/2">
                 <h2 className="font-barlow text-gray-300 font-bold text-base md:text-lg">About me</h2>
                 <h1 className="text-3xl md:text-5xl font-bold font-barlow">
                     Hi, I'm <span className="text-purple-800">Karen</span>
@@ -37,15 +37,15 @@ const About = () => {
                 </p>
 
                 {/* TOOLS */}
-                <div className="flex flex-row pt-8 space-x-2">
+                <div className="flex flex-row pt-8 space-x-2 items-center">
                     <h3 className="font-bold font-barlow text-purple-200">DEV TOOLS |</h3>
-                    <Tooltip message="Typescript"><StackIcon name="typescript" className="w-6 h-auto" aria-label="Typescript" /></Tooltip>
-                    <Tooltip message="ReactJS"><StackIcon name="reactjs" className="w-6 h-auto" aria-label="ReactJS" /></Tooltip>
-                    <Tooltip message="Node.js"><StackIcon name="nodejs" className="w-6 h-auto" aria-label="Node.js" /></Tooltip>
-                    <Tooltip message="Tailwind CSS"><StackIcon name="tailwindcss" className="w-6 h-auto" aria-label="Tailwind CSS" /></Tooltip>
-                    <Tooltip message="HTML5"><StackIcon name="html5" className="w-6 h-auto" aria-label="HTML5" /></Tooltip>
-                    <Tooltip message="CSS3"><StackIcon name="css3" className="w-6 h-auto" aria-label="CSS3" /></Tooltip>
-                    <Tooltip message="Database [SQL]"><img src={dbIcon} alt="database" className="w-6 h-auto" aria-label="Database [SQL]" /></Tooltip>
+                    <Tooltip message="Typescript"><StackIcon name="typescript" className="w-6 md:w-7 h-auto" aria-label="Typescript" /></Tooltip>
+                    <Tooltip message="ReactJS"><StackIcon name="reactjs" className="w-6 md:w-7 h-auto" aria-label="ReactJS" /></Tooltip>
+                    <Tooltip message="Node.js"><StackIcon name="nodejs" className="w-6 md:w-7 h-auto" aria-label="Node.js" /></Tooltip>
+                    <Tooltip message="Tailwind CSS"><StackIcon name="tailwindcss" className="w-6 md:w-7 h-auto" aria-label="Tailwind CSS" /></Tooltip>
+                    <Tooltip message="HTML5"><StackIcon name="html5" className="w-6 md:w-7 h-auto" aria-label="HTML5" /></Tooltip>
+                    <Tooltip message="CSS3"><StackIcon name="css3" className="w-6 md:w-7 h-auto" aria-label="CSS3" /></Tooltip>
+                    <Tooltip message="Database [SQL]"><img src={dbIcon} alt="database" className="w-6 md:w-7 h-auto" aria-label="Database [SQL]" /></Tooltip>
                 </div>
             </div>
         </motion.section>

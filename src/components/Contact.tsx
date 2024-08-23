@@ -15,7 +15,7 @@ const Contact = () => {
             }}
         >
             {/* CONTENT */}
-            <div className="text-left sm:w-1/2 sm:pt-8 sm:pr-6 pb-8">
+            <div className="text-left sm:w-1/2 sm:pt-8 pb-8">
                 <h2 className="font-barlow text-gray-300 font-bold text-base md:text-lg">Contact</h2>
                 <h1 className="text-3xl md:text-5xl font-bold font-barlow">
                     Reach Out <span className="text-purple-800">Anytime</span>
@@ -42,8 +42,8 @@ const Contact = () => {
 
                 {/* PHRASE */}
                 <div className="flex flex-row pt-6 gap-6 items-center">
-                    <img src={contactPhrase} alt="contact-phrase" className="w-20 md:w-28 h-auto" />
-                    <p className="w-4/5 italic text-sm md:text-base text-gray-100 hover:text-purple-600 transition duration-300">
+                    <img src={contactPhrase} alt="contact-phrase" className="w-20 md:w-28 h-auto hidden md:block" />
+                    <p className="italic text-sm md:text-base text-gray-100 hover:text-purple-600 transition duration-300">
                         I’m always eager to grow and learn—if there’s something I don’t know, I’m ready to dive in and master it.
                     </p>
                 </div>
