@@ -36,7 +36,7 @@ function Home() {
 
             {/* IMAGE */}
             <div className="flex-1 flex justify-center items-center">
-                <img src={homeImage} alt="Dark-themed workspace with a computer" className="w-full h-4/5 object-cover" />
+                <img src={homeImage} alt="home" className="w-full h-4/5 object-cover" />
             </div>
         </motion.section>
     )
